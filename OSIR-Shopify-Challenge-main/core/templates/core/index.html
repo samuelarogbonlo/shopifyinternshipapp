@@ -1,0 +1,10 @@
+{% extends "core/base.html" %}
+{% block "content" %}
+<div class="display-4 mb-3">
+Welcome to the Open Source Image Repo(OSIR) page!!!
+</div>
+<hr class="mb-3">
+<a href="{% url 'signup' %}">Sign Up</a> / <a href="{% url 'login' %}">Login</a> to upload and view your private photos.
+<br>
+You can also view all publicly uploaded photos here. 
+{% endblock "content" %}

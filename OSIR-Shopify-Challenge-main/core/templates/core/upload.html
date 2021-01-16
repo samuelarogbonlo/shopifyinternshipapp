@@ -1,0 +1,15 @@
+{% extends "core/base.html" %}
+{% block "content" %}
+<h2 class="text-center mb-3">Upload</h2>
+<form method="POST" action="." enctype="multipart/form-data" style="max-width: 420px;" class="mx-auto">
+  {% csrf_token %}
+
+  {% for field in form %}
+  <div class="mb-3">
+    <label for="{{ field.id_for_label }}" class="form-label">{{ field.label }}</label>
+    {{field}}
+  </div>
+  {% endfor %}
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>
+{% endblock "content" %}
