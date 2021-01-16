@@ -2,6 +2,8 @@
 
 Opinonated Python application repository for uploading of images and corresponding access control
 
+![image](https://user-images.githubusercontent.com/47984109/104813820-dc5e8a80-580b-11eb-9740-34f6848b3992.png)
+
 # Stack
 
 1. Python
