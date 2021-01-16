@@ -34,6 +34,21 @@ Opinonated Python application repository for uploading of images and correspondi
 
 Alternatively, you can use ```python manage.py createsuperuser``` to create user from the command line interface.
 
+# Challenge Ideas Used
+
+## SEARCH function
+-from characteristics of the images
+ -from text
+  -from an image (search for similar images)
+## ADD image(s) to the repository
+-one / bulk / enormous amount of images
+ -private or public (permissions)
+  -secure uploading and stored images
+## DELETE image(s)
+-one / bulk / selected / all images
+ -Prevent a user deleting images from another user (access control)
+  -secure deletion of images
+
 # Collaborators
 [YOUR NAME HERE] - Feel free to contribute to the codebase by resolving any open issues, refactoring, adding new features, writing test cases or any other way to make the project better and helpful to the community. Feel free to fork and send pull requests.
 
