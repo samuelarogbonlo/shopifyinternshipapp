@@ -21,9 +21,10 @@ Opinonated Python application repository for uploading of images and correspondi
 2. Install the dependencies in the requirements.txt file with  
 ```pip install -r requirements.txt --user```. Otherwise you can install individually with 
 ```pip install --user django```, ```pip install --user jinja2``` and ```pip install --user pillow```. Also if any error comes up, open shell as administrator. 
-3. Run the server with 
+3. Run ```Python manage.py migrate```
+4. Run the server with 
 ```python manage.py runserver```
-4. Select the IP link displayed and access the web page.  
+5. Select the IP link displayed and access the web page.  
 
 # Platform Usage
 
